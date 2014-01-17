@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns      = "http://www.w3.org/ns/widgets"
+        xmlns:gap  = "http://phonegap.com/ns/1.0"
+        id         = "com.hello-ekk"
+        version    = "0.0.1">
+
+  <name>Simple PhoneGap Build App</name>
+
+  <description>
+    This is a testing app (aka. hello world).
+  </description>
+
+  <author href="http://himanen.info"
+    email="tom@himanen.info">
+    Tom Himanen
+  </author>
+
+  <gap:platforms>
+    <gap:platform name="android" minVersion="2.1" />
+  </gap:platforms>
+
+  <icon src="icon.png" gap:role="default" />
+
+  <gap:splash src="splash.9.png" />
+
+  <feature name="http://api.phonegap.com/1.0/geolocation" />
+  <feature name="http://api.phonegap.com/1.0/network" />
+</widget>
